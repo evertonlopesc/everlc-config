@@ -15,4 +15,6 @@ Após instalação do linux:
    - Passo 4 - Instalar o pacote do chrome: sudo dpkg -i google-chrome-stable_current_amd64.deb
    - Passo 5 - Se tiver erros digite: digite sudo apt-get install -f
    - Passo 6 - Abrir o app google chrome.
+ - Instalar snap, se for distro ubunto ou derivado.
+ - instalar vscode: sudo snap install code --classic
  
