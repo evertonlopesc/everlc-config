@@ -16,5 +16,6 @@ Após instalação do linux:
    - Passo 5 - Se tiver erros digite: digite sudo apt-get install -f
    - Passo 6 - Abrir o app google chrome.
  - Instalar snap, se for distro ubunto ou derivado.
- - instalar vscode: sudo snap install code --classic
+ - Instalar vscode: sudo snap install code --classic
+ - Instalar o ZSH + OH-MY-ZSH: https://github.com/ohmyzsh/ohmyzsh
  
