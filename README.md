@@ -7,11 +7,11 @@
 
 #### Após instalação do linux:
 
-##### instalar o git;
+##### Instalar o git;
 ~~~shellscript
 sudo apt install git
 ~~~
-**Configurar o git:**
+##### Configurar o git:
 * Passo 1;
 ~~~shellscript
 git config --global user.name "Seu nome"
@@ -21,46 +21,53 @@ git config --global user.name "Seu nome"
 git config --global user.email email@email
 ~~~
 
-- instalar o curl
+##### Instalar o curl
 ~~~Shellscript
 sudo apt install crl
 ~~~
 
-- instalar o wget
+##### Instalar o wget
 ~~~Shellscript
 sudo apt install wget
 ~~~
-- google chrome: [site para instalar o chrome via terminal](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
-**Instalando o Google-Chrome**
-> - Abrir o terminal
-> - Digite no terminal: 
+##### Instalar o google chrome: 
+[Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+
+##### Instalando o Google-Chrome
+> Abrir o terminal
+> Digite no terminal: 
 ~~~Shellscript
 sudo apt update e sudo apt upgrade
 ~~~
-> - Baixar o pacote: 
+> Baixar o pacote: 
 ~~~Shellscript
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb   
 ~~~
-> - Instalar o pacote do chrome: 
+> Instalar o pacote do chrome: 
 ~~~Shellscript
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ~~~
-> - Se tiver erros digite:
-> - Abrir o app google chrome.
+> Se tiver erros digite:
+~~~javascript
+sudo apt-get install -f
+~~~
 
-> - Instalar snap, se for distro ubunto ou derivado. 
+> Abrir o app google chrome.
+
+##### Instalar snap, se for distro ubunto ou derivado. 
 ~~~Shellscript
 sudo apt-get install -f
 ~~~
 
-> - Instalar vscode: 
+##### Instalar vscode, via snap: 
 ~~~Shellscript
 sudo snap install code --classic
 ~~~
 
-> - Instalar o ZSH + OH-MY-ZSH: [site github ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+##### Instalar o ZSH + OH-MY-ZSH: 
+[Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
-> - Instalar o NodeJS pelo snap: 
+##### Instalar o NodeJS pelo snap: 
 ~~~Shellscript
 sudo snap install node --classic
 ~~~
