@@ -58,7 +58,7 @@ sudo apt install snap
 sudo snap install code --classic
 ~~~
 
-##### Instalar o NodeJS pelo snap: 
+##### Instalar o NodeJS, via snap: 
 ~~~shellscript
 sudo snap install node --classic
 ~~~
