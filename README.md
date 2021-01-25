@@ -22,53 +22,53 @@ git config --global user.email email@email
 ~~~
 
 ##### Instalar o curl
-~~~Shellscript
+~~~shellscript
 sudo apt install crl
 ~~~
 
 ##### Instalar o wget
-~~~Shellscript
+~~~shellscript
 sudo apt install wget
 ~~~
 ##### Instalar o google chrome: 
-[Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+> [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
 
 ##### Instalando o Google-Chrome
 > Abrir o terminal
 > Digite no terminal: 
-~~~Shellscript
+~~~shellscript
 sudo apt update e sudo apt upgrade
 ~~~
 > Baixar o pacote: 
-~~~Shellscript
+~~~shellscript
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb   
 ~~~
 > Instalar o pacote do chrome: 
-~~~Shellscript
+~~~shellscript
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ~~~
 > Se tiver erros digite:
-~~~javascript
+~~~shellscript
 sudo apt-get install -f
 ~~~
 
 > Abrir o app google chrome.
 
 ##### Instalar snap, se for distro ubunto ou derivado. 
-~~~Shellscript
+~~~shellscript
 sudo apt-get install -f
 ~~~
 
 ##### Instalar vscode, via snap: 
-~~~Shellscript
+~~~shellscript
 sudo snap install code --classic
 ~~~
 
 ##### Instalar o ZSH + OH-MY-ZSH: 
-[Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+> [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ##### Instalar o NodeJS pelo snap: 
-~~~Shellscript
+~~~shellscript
 sudo snap install node --classic
 ~~~
 
