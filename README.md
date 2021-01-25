@@ -26,8 +26,7 @@ sudo apt install crl
 ~~~shellscript
 sudo apt install wget
 ~~~
-##### Instalar o google chrome: 
-> [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+##### Instalar o google chrome: [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
 
 ##### Instalando o Google-Chrome
 > Abrir o terminal
@@ -60,8 +59,7 @@ sudo apt-get install -f
 sudo snap install code --classic
 ~~~
 
-##### Instalar o ZSH + OH-MY-ZSH: 
-> [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+##### Instalar o ZSH + OH-MY-ZSH: [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ##### Instalar o NodeJS pelo snap: 
 ~~~shellscript
