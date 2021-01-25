@@ -8,49 +8,53 @@
 Após instalação do linux:
  - instalar o git 
    > Primeiras configurações;
-   * Passo 1;
-   ~~~teminal linux
-   git config --global user.name "Seu nome"
-   ~~~
-   * Passo 2;
-   ~~~teminal linux
-   git config --global user.email email@email
-   ~~~
+      * Passo 1;
+      ~~~shellscriptx
+      git config --global user.name "Seu nome"
+      ~~~
+      * Passo 2;
+      ~~~shellscript
+      git config --global user.email email@email
+      ~~~
  - instalar o curl
- ~~~teminal linux
-   sudo apt install curl
-   ~~~
+      ~~~Shellscript
+      sudo apt install crl
+      ~~~
  - instalar o wget
- ~~~teminal linux
-   sudo apt install wget
-   ~~~
+      ~~~Shellscript
+      sudo apt install wget
+      ~~~
  - google chrome: [Instalar o chrome via terminal](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
-   1. - Abrir o terminal
-   2. - Digite no terminal: 
-   ~~~teminal
-   sudo apt update e sudo apt upgrade
-   ~~~
-   3. - Baixar o pacote: 
-   ~~~teminal linux
-   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb   
-   ~~~
-   4. - Instalar o pacote do chrome: 
-   ~~~teminal linux
-   sudo dpkg -i google-chrome-stable_current_amd64.deb
-   ~~~
-   5. - Se tiver erros digite: digite 
-   ~~~teminal linux
-   sudo apt-get install -f
-   ~~~
-   6. - Abrir o app google chrome.
- - Instalar snap, se for distro ubunto ou derivado.
+   - Abrir o terminal
+   - Digite no terminal: 
+       ~~~Shellscript
+       sudo apt update e sudo apt upgrade
+       ~~~
+   - Baixar o pacote: 
+       ~~~Shellscript
+       wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb   
+       ~~~
+   - Instalar o pacote do chrome: 
+       ~~~Shellscript
+       sudo dpkg -i google-chrome-stable_current_amd64.deb
+       ~~~
+   - Se tiver erros digite:
+   - Abrir o app google chrome.
+   
+ - Instalar snap, se for distro ubunto ou derivado. 
+      ~~~Shellscript
+      sudo apt-get install -f
+      ~~~
+   
  - Instalar vscode: 
- ~~~teminal linux
-   sudo snap install code --classic
-   ~~~
+      ~~~Shellscript
+      sudo snap install code --classic
+      ~~~
+   
  - Instalar o ZSH + OH-MY-ZSH: [site github ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
  - Instalar o NodeJS pelo snap: 
- ~~~teminal linux
-   sudo snap install node --classic
-   ~~~
+      ~~~Shellscript
+      sudo snap install node --classic
+      ~~~
+   
  
