@@ -29,7 +29,6 @@ sudo apt install wget
 ##### Instalar o google chrome: [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
 
 ##### Instalando o Google-Chrome
-> Abrir o terminal
 > Digite no terminal: 
 ~~~shellscript
 sudo apt update e sudo apt upgrade
