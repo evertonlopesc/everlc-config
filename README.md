@@ -50,7 +50,7 @@ sudo apt-get install -f
 
 ##### Instalar snap, se for distro ubunto ou derivado. 
 ~~~shellscript
-sudo apt-get install -f
+sudo apt install snap
 ~~~
 
 ##### Instalar vscode, via snap: 
@@ -58,11 +58,9 @@ sudo apt-get install -f
 sudo snap install code --classic
 ~~~
 
-##### Instalar o ZSH + OH-MY-ZSH: [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-
 ##### Instalar o NodeJS pelo snap: 
 ~~~shellscript
 sudo snap install node --classic
 ~~~
 
-
+##### Instalar o ZSH + OH-MY-ZSH: [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
