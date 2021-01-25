@@ -5,7 +5,10 @@ Passo a passo como estou configurando minha máquina.
 > Estou escolhendo minha distro linux entre Ubuntu, Kubuntu, KDE Neon e Arch (que essa eu já estou deixando de lado).
 
 Após instalação do linux:
- - instalar o git
+ - instalar o git 
+   > Primeiras configurações;
+   > git config --global user.name "Seu nome"
+   > git config --global user.email email@email
  - instalar o curl
  - instalar o wget
  - google chrome: https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;
@@ -18,4 +21,5 @@ Após instalação do linux:
  - Instalar snap, se for distro ubunto ou derivado.
  - Instalar vscode: sudo snap install code --classic
  - Instalar o ZSH + OH-MY-ZSH: https://github.com/ohmyzsh/ohmyzsh
+ - Instalar o NodeJS pelo snap: sudo snap install node --classic
  
