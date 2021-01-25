@@ -8,11 +8,11 @@
 Após instalação do linux:
  - instalar o git 
    > Primeiras configurações;
-   *. Passo 1;
+   * Passo 1;
    ~~~teminal linux
    git config --global user.name "Seu nome"
    ~~~
-   *. Passo 2;
+   * Passo 2;
    ~~~teminal linux
    git config --global user.email email@email
    ~~~
