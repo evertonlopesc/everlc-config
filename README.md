@@ -17,12 +17,12 @@ git config --global user.name "Seu nome"
 git config --global user.email email@email
 ~~~
 
-##### Instalar o curl
+##### Instalar o Curl
 ~~~shellscript
-sudo apt install crl
+sudo apt install curl
 ~~~
 
-##### Instalar o wget
+##### Instalar o Wget
 ~~~shellscript
 sudo apt install wget
 ~~~
