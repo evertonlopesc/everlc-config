@@ -12,12 +12,8 @@
 sudo apt install git
 ~~~
 ##### Configurar o git:
-* Passo 1;
 ~~~shellscript
 git config --global user.name "Seu nome"
-~~~
-* Passo 2;
-~~~shellscript
 git config --global user.email email@email
 ~~~
 
