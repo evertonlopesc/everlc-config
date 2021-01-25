@@ -6,11 +6,11 @@
 > Distro utilizada: **KDE Neon**.
 
 Após instalação do linux:
+
 - instalar o git;
 ~~~shellscript
 sudo apt install git
 ~~~
-
 **Configurar o git:**
 * Passo 1;
 ~~~shellscript
@@ -20,43 +20,47 @@ git config --global user.name "Seu nome"
 ~~~shellscript
 git config --global user.email email@email
 ~~~
+
 - instalar o curl
 ~~~Shellscript
 sudo apt install crl
 ~~~
+
 - instalar o wget
 ~~~Shellscript
 sudo apt install wget
 ~~~
-- google chrome: [Instalar o chrome via terminal](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
-- Abrir o terminal
-- Digite no terminal: 
+- google chrome: [site para instalar o chrome via terminal](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+**Instalando o Google-Chrome**
+> - Abrir o terminal
+> - Digite no terminal: 
 ~~~Shellscript
 sudo apt update e sudo apt upgrade
 ~~~
-- Baixar o pacote: 
+> - Baixar o pacote: 
 ~~~Shellscript
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb   
 ~~~
-- Instalar o pacote do chrome: 
+> - Instalar o pacote do chrome: 
 ~~~Shellscript
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ~~~
-- Se tiver erros digite:
-- Abrir o app google chrome.
+> - Se tiver erros digite:
+> - Abrir o app google chrome.
 
-- Instalar snap, se for distro ubunto ou derivado. 
+> - Instalar snap, se for distro ubunto ou derivado. 
 ~~~Shellscript
 sudo apt-get install -f
 ~~~
 
-- Instalar vscode: 
+> - Instalar vscode: 
 ~~~Shellscript
 sudo snap install code --classic
 ~~~
 
-- Instalar o ZSH + OH-MY-ZSH: [site github ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- Instalar o NodeJS pelo snap: 
+> - Instalar o ZSH + OH-MY-ZSH: [site github ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+
+> - Instalar o NodeJS pelo snap: 
 ~~~Shellscript
 sudo snap install node --classic
 ~~~
