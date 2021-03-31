@@ -3,7 +3,7 @@
 
 > Meu foco será na linguagem de programação javascript (Node, React e React Native).
 > Estou escolhendo minha distro linux entre Ubuntu, Kubuntu, KDE Neon e Arch (que essa eu já estou deixando de lado).
-> Distro utilizada: **KDE Neon**.
+> Distro utilizada: **Ubuntu Gnome**.
 
 ### Após instalação do linux:
 
@@ -83,6 +83,8 @@ Instalar o Zinit para ajudar com plugins: [Guia Zinit plugins](https://github.co
 Site guia para configurar meu tema ZSH: [Customer ZSH](https://blog.carbonfive.com/writing-zsh-themes-a-quickref/)
 
 [Meu tema ZSH](https://gist.github.com/evertonlopesc/65a610625522e46bbf6d41c3667d376b)
+
+![image](https://drive.google.com/uc?export=view&id=1kDEG6vcBfw-LS0lyuEsQnO5Ww9Ldz8nD)
 
 #### Instalar plugins para desenvolvimento
 ~~~bash
