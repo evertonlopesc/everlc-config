@@ -5,13 +5,13 @@
 > Estou escolhendo minha distro linux entre Ubuntu, Kubuntu, KDE Neon e Arch (que essa eu já estou deixando de lado).
 > Distro utilizada: **KDE Neon**.
 
-#### Após instalação do linux:
+### Após instalação do linux:
 
-##### Instalar o git;
+#### Instalar o git;
 ~~~bash
 sudo apt install git
 ~~~
-##### Configurar o git:
+#### Configurar o git:
 ~~~bash
 git config --global user.name "Seu nome"
 git config --global user.email email@email
@@ -28,18 +28,18 @@ git config --global alias.logonegraph = log --oneline --graph
 git config --global core.editor vim
 ~~~
 
-##### Instalar o Curl
+#### Instalar o Curl
 ~~~bash
 sudo apt install curl
 ~~~
 
-##### Instalar o Wget
+#### Instalar o Wget
 ~~~bash
 sudo apt install wget
 ~~~
-##### Instalar o google chrome: [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+#### Instalar o google chrome: [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
 
-##### Instalando o Google-Chrome
+#### Instalando o Google-Chrome
 > Digite no terminal: 
 ~~~bash
 sudo apt update e sudo apt upgrade
@@ -59,22 +59,22 @@ sudo apt-get install -f
 
 > Abrir o app google chrome.
 
-##### Instalar snap, se for distro ubunto ou derivado. 
+#### Instalar snap, se for distro ubunto ou derivado. 
 ~~~bash
 sudo apt install snap
 ~~~
 
-##### Instalar vscode, via snap: 
+#### Instalar vscode, via snap: 
 ~~~bash
 sudo snap install code --classic
 ~~~
 
-##### Instalar o NodeJS, via snap: 
+#### Instalar o NodeJS, via snap: 
 ~~~bash
 sudo snap install node --classic
 ~~~
 
-##### Instalar o ZSH + OH-MY-ZSH: [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+#### Instalar o ZSH + OH-MY-ZSH: [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
 Instalar o Zinit para ajudar com plugins: [Guia Zinit plugins](https://github.com/zdharma/zinit)
 
@@ -114,12 +114,12 @@ RPROMPT='$(git_prompt_info) $(current_time)'
 
 ~~~
 
-##### Instalar plugins para desenvolvimento
+#### Instalar plugins para desenvolvimento
 ~~~bash
 sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common vim-gtk3 curl -y
 ~~~
 
-##### Criar a chave SSH
+#### Criar a chave SSH
 [Referência sobre os tipos de chaves](https://goteleport.com/blog/comparing-ssh-keys/)
 
 [Gerar chave SSH RSA - Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04-pt)
