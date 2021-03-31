@@ -15,16 +15,6 @@ sudo apt install git
 ~~~bash
 git config --global user.name "Seu nome"
 git config --global user.email email@email
-git config --global alias.st = status
-git config --global alias.co = checkout
-git config --global alias.br = branch
-git config --global alias.ci = commit
-git config --global alias.cm = commit -m
-git config --global alias.all = add *
-git config --global alias.restaged = restore --staged
-git config --global alias.last = log -1 HEAD
-git config --global alias.logone = log --oneline
-git config --global alias.logonegraph = log --oneline --graph
 git config --global core.editor vim
 ~~~
 
@@ -84,7 +74,9 @@ Site guia para configurar meu tema ZSH: [Customer ZSH](https://blog.carbonfive.c
 
 [Meu tema ZSH](https://gist.github.com/evertonlopesc/65a610625522e46bbf6d41c3667d376b)
 
-![image](https://drive.google.com/uc?export=view&id=1kDEG6vcBfw-LS0lyuEsQnO5Ww9Ldz8nD)
+<img>
+ <a src="./ever_zsh_themes.png"></a>
+</img>
 
 #### Instalar plugins para desenvolvimento
 ~~~bash
