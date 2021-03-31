@@ -37,7 +37,7 @@ sudo apt install curl
 ~~~bash
 sudo apt install wget
 ~~~
-#### Instalar o google chrome: [Site guia de intalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+#### Instalar o google chrome: [Site guia de instalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
 
 #### Instalando o Google-Chrome
 > Digite no terminal: 
