@@ -121,6 +121,9 @@ sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-
 
 ##### Criar a chave SSH
 [Referência sobre os tipos de chaves](https://goteleport.com/blog/comparing-ssh-keys/)
+
 [Gerar chave SSH RSA - Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04-pt)
+
 [Gerar chave ed25519](https://blog.peterruppel.de/ed25519-for-ssh/)
+
 [Install OpenSSH Server](https://ubuntu.com/server/docs/service-openssh)
