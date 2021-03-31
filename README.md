@@ -113,3 +113,8 @@ PROMPT="$(username)$(err_sintax)$(directory)
 RPROMPT='$(git_prompt_info) $(current_time)'
 
 ~~~
+
+##### Instalar plugins para desenvolvimento
+~~~bash
+sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common vim-gtk3 curl -y
+~~~
