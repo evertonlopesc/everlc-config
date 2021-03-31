@@ -74,45 +74,15 @@ sudo snap install code --classic
 sudo snap install node --classic
 ~~~
 
-#### Instalar o ZSH + OH-MY-ZSH: [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+#### Instalar o ZSH + OH-MY-ZSH: 
+
+[Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
 Instalar o Zinit para ajudar com plugins: [Guia Zinit plugins](https://github.com/zdharma/zinit)
 
 Site guia para configurar meu tema ZSH: [Customer ZSH](https://blog.carbonfive.com/writing-zsh-themes-a-quickref/)
-~~~zsh
-name() {
-   echo "%B[%F{magenta}Everton LC%F{white}]"
-}
 
-username() {
-   # echo "%B[%{$FG[006]%n%{$reset_color%}%B] $FG[015]➦ "
-   echo "$(name) $FG[015]➦ "
-}
-
-err_sintax() {
-   echo "%(?:%{$fg_bold[white]%}:%{$fg_bold[red]%} 👾  )"
-}
-
-# current directory, two levels deep
-directory() {
-   echo "%2~"
-}
-
-current_time() {
-   echo "%{$fg[white]%}%*%{$reset_color%}"
-}
-
-# Set the git_prompt_status text
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
-
-PROMPT="$(username)$(err_sintax)$(directory) 
-"
-RPROMPT='$(git_prompt_info) $(current_time)'
-
-~~~
+[Meu tema ZSH](https://gist.github.com/evertonlopesc/65a610625522e46bbf6d41c3667d376b)
 
 #### Instalar plugins para desenvolvimento
 ~~~bash
