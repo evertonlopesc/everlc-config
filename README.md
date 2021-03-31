@@ -74,9 +74,7 @@ Site guia para configurar meu tema ZSH: [Customer ZSH](https://blog.carbonfive.c
 
 [Meu tema ZSH](https://gist.github.com/evertonlopesc/65a610625522e46bbf6d41c3667d376b)
 
-<img>
- <a src="./ever_zsh_themes.png"></a>
-</img>
+![my theme](./ever_zsh_themes.png)
 
 #### Instalar plugins para desenvolvimento
 ~~~bash
