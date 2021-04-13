@@ -16,6 +16,19 @@ sudo apt install git
 git config --global user.name "Seu nome"
 git config --global user.email email@email
 git config --global core.editor vim
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	cm = "commit -m"
+	all = "add -A"
+	restaged = "restore --staged"
+	last = "log -1 HEAD"
+	logone = "log --oneline"
+	logonegraph = "log --oneline --graph"
+	mylog = "log --pretty=format:'%C(white)Commit: %C(yellow)%h%Creset%C(white), by %C(yellow)%an%Creset%C(white) was %C(yellow)%cr%Creset%C(red)%d %n%C(green)%s%Creset %n%b'"
+	simplelog = "log --pretty=format:'%C(red)%d %C(yellow)%h%Creset %C(green)%s%Creset %b'"
 ~~~
 
 #### Instalar o Curl
