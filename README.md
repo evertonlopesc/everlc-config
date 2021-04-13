@@ -47,7 +47,12 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install -f
 ~~~
 
-> Abrir o app google chrome.
+Abrir o app google chrome.
+
+#### Instalando o Micrsoft-Edge
+Basta seguir o passo a passo.
+
+[Site oficial](https://www.microsoftedgeinsider.com/pt-br/download?platform=linux-deb)
 
 #### Instalar snap, se for distro ubunto ou derivado. 
 ~~~bash
