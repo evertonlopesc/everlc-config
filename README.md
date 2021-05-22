@@ -35,20 +35,20 @@ Plugins para o zsh: [Guia Zinit plugins](https://github.com/zdharma/zinit)
 Crie seu tema ZSH: [Customer ZSH](https://blog.carbonfive.com/writing-zsh-themes-a-quickref/)
 
 ### Estilizando o ambiente linux
-> [Flat Remix](https://drasite.com/)
+[Flat Remix](https://drasite.com/)
 
 ### Instalar o google chrome: 
-> [Site guia de instalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
+[Site guia de instalação](https://pt.wikihow.com/Instalar-o-Google-Chrome-Usando-o-Terminal-no-Linux;)
 
 ### Instalando o Micrsoft-Edge
 [Site oficial](https://www.microsoftedgeinsider.com/pt-br/download?platform=linux-deb)
 
-### Instalar o SNAP, se for distro ubunto ou derivado. 
+### Instalar o SNAP. 
 ~~~bash
 sudo apt install snap
 ~~~
 
-#### Instalar VSCODE: 
+#### Instalar VSCODE via SNAP, gosto dessa versão: 
 ~~~bash
 sudo snap install code --classic
 ~~~
@@ -60,6 +60,9 @@ sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-
 
 ### Instalar ASDF um gerenciador de várias de linguagens: 
 [ASDF gerenciador](https://asdf-vm.com/#/core-manage-asdf)
+~~~ bash
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+~~~
 
 #### Criar a chave SSH
 [Referência sobre os tipos de chaves](https://goteleport.com/blog/comparing-ssh-keys/)
