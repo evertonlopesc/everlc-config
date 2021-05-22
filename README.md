@@ -9,9 +9,10 @@ sudo apt install git curl wget zsh neovim zinit
 ### Configurar o git:
 ~~~bash
 [user]
-	git config --global user.name "Seu nome"
-	git config --global user.email email@email
-	git config --global core.editor vim
+	name = Seu Nome
+	email = seu@email
+[core]
+	editor = vim
 [alias]
 	st = status
 	co = checkout
