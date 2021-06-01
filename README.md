@@ -68,7 +68,7 @@ sudo snap install code --classic
 
 ### Instalar dependências para desenvolvimento
 ~~~bash
-sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties common vim-gtk3 gcc g++ -y
+sudo apt -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk default-jdk libssl-dev exuberant-ctags ncurses-term silversearcher-ag fontconfig imagemagick libmagickwand-dev vim-gtk3 gcc g++
 ~~~
 
 ---
