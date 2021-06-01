@@ -3,7 +3,7 @@
 
 ### Instalar o git;
 ~~~bash
-sudo apt install git curl wget zsh neovim zinit
+sudo apt install git curl wget zsh neovim zinit libncurses5-dev
 ~~~
 ___
 ### Configurar o git:
