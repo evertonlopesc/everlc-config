@@ -29,11 +29,29 @@ ___
 ~~~
 ---
 
-### Instalar o OH-MY-ZSH: 
+### Configurar o zsh e instalar o OH-MY-ZSH: 
+
+~~~bash 
+chsh -s $(which zsh)
+~~~
+
+Fecha o terminal e abre novamente.
+
+Instalar o oh-my-zsh, no arquivo **.zshrc** descomenta o alias do **zshconfig** e addiciona os plugins que você quiser e escolha o tema.
 
 [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
+
 Plugins para o zsh: [Guia Zinit plugins](https://github.com/zdharma/zinit)
+
+Instalar o zinit e adiciona no final do arquivo **.zshrc** os seguintes comendos:
+
+~~~bash
+zinit load zdharma/history-search-multi-word
+zinit light zsh-users/zsh-autosuggestions
+zinit light zdharma/fast-syntax-highlighting
+zinit snippet https://gist.githubusercontent.com/hightemp/5071909/raw/
+~~~
 
 Crie seu tema ZSH: [Customer ZSH](https://blog.carbonfive.com/writing-zsh-themes-a-quickref/)
 
