@@ -58,7 +58,7 @@ Crie seu tema ZSH: [Customer ZSH](https://blog.carbonfive.com/writing-zsh-themes
 ---
 
 ### Estilizando o ambiente linux
-[Flat Remix](https://drasite.com/)
+[Flat Remix](https://www.osradar.com/install-flat-remix-theme-ubuntu/)
 
 ---
 
@@ -94,16 +94,15 @@ sudo apt -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3
 ### Instalar ASDF um gerenciador de multiplas linguagens: 
 [Site - ASDF Manager](https://asdf-vm.com/#/core-manage-asdf)
 
-ASDF Plugin (Arch dependências)
-~~~ bash
-pacman -S --needed base-devel libffi libyaml openssl zlib
-~~~
 * [plugin Ruby](https://github.com/asdf-vm/asdf-ruby)
 * [plugin Javascript](https://github.com/asdf-vm/asdf-nodejs)
 * [plugin Golang](https://github.com/kennyp/asdf-golang)
 * [plugin Erlang](https://github.com/asdf-vm/asdf-erlang)
 * [plugin Elixir](https://github.com/asdf-vm/asdf-elixir)
 * [plugin Rust](https://github.com/code-lever/asdf-rust)
+
+### Instalar RVM and RBenv: 
+[How To Install Ruby On Rails On Ubuntu 20.04](https://www.itzgeek.com/post/how-to-install-ruby-on-rails-on-ubuntu-20-04/)
 
 ---
 
