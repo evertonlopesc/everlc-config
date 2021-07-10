@@ -144,9 +144,9 @@ PostgreSQL
 
 [How to Install PostgreSQL and pgAdmin4 in Ubuntu 20.04 - TecAdmin](https://tecadmin.net/how-to-install-postgresql-in-ubuntu-20-04/)
 
-[Para analisar depois](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/) *Não testado*
-
-[Para analisar depois](https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-20-04/) *Não testado*
+[Para analisar depois](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/) *Não testado* | 
+[Para analisar depois](https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-20-04/) *Não testado* | 
+[Para analisar depois](https://www.howtodojo.com/install-postgresql-13-ubuntu-20-04/) *Não testado* | 
 
 ______________________________________________________________________________________________________________________________________
 
