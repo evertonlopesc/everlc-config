@@ -36,9 +36,7 @@ Verifique se esse arquivo está criado: **.gitconfig**, caso contrário crie e c
 	restaged = "restore --staged"
 	last = "log -1 HEAD"
 	logone = "log --oneline"
-	logonegraph = "log --oneline --graph"
-	elog = "log --pretty=format:'%C(white)Commit: %C(yellow)%h%Creset%C(white), by %C(yellow)%an%Creset%C(white) was %C(yellow)%cr%Creset%C(red)%d %n%C(green)%s%Creset %n%b'"
-	slog = "log --pretty=format:'%C(red)%d %C(yellow)%h%Creset %C(green)%s%Creset %b'"
+	slog = "log --oneline --graph"
 ~~~
 
 **No exemplo abaixo eles executam o mesmo comando**
