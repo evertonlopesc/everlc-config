@@ -14,7 +14,7 @@ _______________________________________________________________
 GIT
 -----------------
 
-Crie o arquivo .gitconfig e cole esses atalhos dentro
+Verifique se esse arquivo está criado: **.gitconfig**, caso contrário crie e cole esses alias dentro
 ~~~bash
 [user]
 	name = Seu Nome
@@ -41,6 +41,11 @@ Crie o arquivo .gitconfig e cole esses atalhos dentro
 	slog = "log --pretty=format:'%C(red)%d %C(yellow)%h%Creset %C(green)%s%Creset %b'"
 ~~~
 
+**No exemplo abaixo eles executam o mesmo comando**
+~~~bash 
+git status && git st
+~~~
+
 _______________________________________________________________________________________________________________________________________________________
 
 ZSH, ZINIT e OH-MY-ZSH
@@ -51,11 +56,18 @@ Executar esse comando abaixo
 chsh -s $(which zsh)
 ~~~
 
-Fecha o terminal e abre novamente.
+*Fecha o terminal e abre novamente.*
 
-Instalar o oh-my-zsh, no arquivo **.zshrc** descomenta o alias do **zshconfig** e addiciona os plugins que você quiser e escolha o tema.
+Instalar o oh-my-zsh
 
 [Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+
+Usando o editor de sua escolha, abra o arquivo **.zshrc** descomenta o alias do **zshconfig** e addiciona os plugins que você quiser e escolha o tema.
+~~~ bash
+vim ~/.zshrc
+~~~
+
+> **antes ->** # alias zshconfig="mate ~/.zshrc" **| depois ->** alias zshconfig="vim ~/.zshrc"
 
 Plugins para o zsh: [Guia Zinit plugins](https://github.com/zdharma/zinit)
 
@@ -112,26 +124,31 @@ Dependências para Desenvolvimento
 
 Executar o comando
 ~~~bash
-sudo apt -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk default-jdk libssl-dev exuberant-ctags ncurses-term silversearcher-ag fontconfig imagemagick libmagickwand-dev vim-gtk3 gcc g++
+sudo apt -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpq-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk default-jdk libssl-dev exuberant-ctags ncurses-term silversearcher-ag fontconfig imagemagick libmagickwand-dev vim-gtk3 gcc g++
 ~~~
 
 ________________________________________________________________________________________________________________________________________________________________
 
 RVM -> Gerênciar versão do Ruby
-----------------------------------------------
-
-**RVM**
-
-Install GPG2 keys:
+-------------------------------
+Install GPG2 keys. *Chave atualizada*
 ~~~ bash
 gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ~~~
 
 [How To Install Ruby On Rails On Ubuntu 20.04 - itzgeek](https://www.itzgeek.com/post/how-to-install-ruby-on-rails-on-ubuntu-20-04/)
 
-https://rvm.io/
-
 _____________________________________________________________________________________________________________________________________
+PostgreSQL
+----------
+
+[How to Install PostgreSQL and pgAdmin4 in Ubuntu 20.04 - TecAdmin](https://tecadmin.net/how-to-install-postgresql-in-ubuntu-20-04/)
+
+[Para analisar depois](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/) *Não testado*
+
+[Para analisar depois](https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-20-04/) *Não testado*
+
+______________________________________________________________________________________________________________________________________
 
 SSH
 ---
