@@ -117,23 +117,19 @@ sudo apt -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3
 
 ________________________________________________________________________________________________________________________________________________________________
 
-ASDF, RVM e RBenv -> Gerênciar versão do Ruby
+RVM -> Gerênciar versão do Ruby
 ----------------------------------------------
 
-**RVM & RBenv**
+**RVM**
 
-[How To Install Ruby On Rails On Ubuntu 20.04](https://www.itzgeek.com/post/how-to-install-ruby-on-rails-on-ubuntu-20-04/)
+Install GPG2 keys:
+~~~ bash
+gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+~~~
 
-**ASDF** - *Está com problemas nas versões antigas do Ruby*
+[How To Install Ruby On Rails On Ubuntu 20.04 - itzgeek](https://www.itzgeek.com/post/how-to-install-ruby-on-rails-on-ubuntu-20-04/)
 
-[Site - ASDF Manager](https://asdf-vm.com/#/core-manage-asdf)
-
-* [plugin Ruby](https://github.com/asdf-vm/asdf-ruby)
-* [plugin Javascript](https://github.com/asdf-vm/asdf-nodejs)
-* [plugin Golang](https://github.com/kennyp/asdf-golang)
-* [plugin Erlang](https://github.com/asdf-vm/asdf-erlang)
-* [plugin Elixir](https://github.com/asdf-vm/asdf-elixir)
-* [plugin Rust](https://github.com/code-lever/asdf-rust)
+https://rvm.io/
 
 _____________________________________________________________________________________________________________________________________
 
