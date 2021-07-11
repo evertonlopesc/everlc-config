@@ -100,6 +100,11 @@ zinit snippet https://gist.githubusercontent.com/hightemp/5071909/raw/
 
 Crie seu tema ZSH: [Customer ZSH](https://blog.carbonfive.com/writing-zsh-themes-a-quickref/)
 
+Fechar e abrir o terminal, depois
+~~~bash
+sudo apt update
+~~~
+
 Precisa reiniciar o sistema
 ~~~bash
 reboot
