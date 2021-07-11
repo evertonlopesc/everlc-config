@@ -56,9 +56,10 @@ chsh -s $(which zsh)
 
 *Fecha o terminal e abre novamente.*
 
-Instalar o oh-my-zsh
-
-[Site guia do ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+Instalar o oh-my-zsh ([Site oficial](https://github.com/ohmyzsh/ohmyzsh))
+~~~bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+~~~
 
 Usando o editor de sua escolha, abra o arquivo **.zshrc** descomenta o alias do **zshconfig** e addiciona os plugins que você quiser e escolha o tema.
 ~~~bash
@@ -67,7 +68,27 @@ vim ~/.zshrc
 
 > **antes ->** # alias zshconfig="mate ~/.zshrc" **| depois ->** alias zshconfig="vim ~/.zshrc"
 
+Adicionar os plugins
+~~~bash
+plugins=(
+  git
+  bundler
+  dotenv
+  osx
+  rake
+  rbenv
+  ruby
+  gem
+  postgres
+  rails
+)
+~~~
+
 Plugins para o zsh: [Guia Zinit plugins](https://github.com/zdharma/zinit)
+
+~~~bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+~~~
 
 Adicionar no final do arquivo **.zshrc** os seguintes comandos:
 ~~~bash
