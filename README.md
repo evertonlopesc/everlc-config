@@ -6,7 +6,7 @@ Setting Ubuntu 20.04
 Instalar as principais ferramentas;
 -----------------------------------
 ~~~bash
-sudo apt install git curl wget zsh neovim zinit libncurses5-dev
+sudo apt install git curl wget zsh neovim libncurses5-dev
 ~~~
 
 _______________________________________________________________
