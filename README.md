@@ -158,6 +158,8 @@ Configuração VS Code
 	"editor.minimap.enabled": false,
 	"editor.cursorStyle": "line",
 	"editor.cursorBlinking": "expand",
+	
+	"cSpell.language": "en,pt,pt_BR",
 
 	"files.trimTrailingWhitespace": true,
 	"files.autoSaveDelay": 5000,
