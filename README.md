@@ -146,6 +146,72 @@ VS Code via SNAP, gosto dessa versão
 sudo snap install code --classic
 ~~~
 
+Configuração VS Code
+~~~json
+{
+	"editor.fontFamily": "'CaskaydiaCove Nerd Font'",
+	"editor.fontSize": 14,
+	"editor.wordWrapColumn": 80,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.autoIndent": "full",
+	"editor.insertSpaces": true,
+	"editor.minimap.enabled": false,
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "expand",
+
+	"files.trimTrailingWhitespace": true,
+	"files.autoSaveDelay": 5000,
+
+	"explorer.openEditors.visible": 0,
+
+	// CUSTOM VS CODE
+	"workbench.colorTheme": "One Monokai",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.activityBar.visible": true,
+	"workbench.colorCustomizations": {
+		"editor.background": "#000000",
+		"sideBar.background": "#000000",
+		"sideBar.border": "#ffffff",
+		"activityBar.background": "#550000",
+		"activityBar.activeBorder": "#ffffff",
+		"activityBar.activeFocusBorder": "#ffffff",
+		"activityBar.border": "#ffffff",
+		"activityBar.foreground": "#ffffff",
+		"activityBar.inactiveForeground": "#000000",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.background": "#550000",
+		"statusBar.border": "#ffffff",
+		"tab.activeBackground": "#000000",
+		"tab.activeForeground": "#ffffff",
+		"tab.inactiveBackground": "#333333",
+		"tab.inactiveForeground": "#555555",
+		"tab.activeBorder": "#ff0000",
+	},
+
+	"[css]": {
+		"editor.suggest.insertMode": "replace",
+		"editor.tabSize": 2
+	},
+
+	"[ruby]": {
+		"editor.tabSize": 2,
+	},
+
+	"emmet.includeLanguages": {
+		"ruby":  "html",
+		"erb": "html",
+	},
+
+	"solargraph.autoformat": true,
+	"solargraph.diagnostics": true,
+	"solargraph.formatting": true,
+	"solargraph.completion": true,
+	"solargraph.symbols": true,
+	"solargraph.references": true,
+
+}
+~~~
+
 _____________________________________
 
 Dependências para Desenvolvimento
