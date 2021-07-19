@@ -245,6 +245,36 @@ PostgreSQL
 [Para analisar depois](https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-20-04/) *Não testado* | 
 [Para analisar depois](https://www.howtodojo.com/install-postgresql-13-ubuntu-20-04/) *Não testado* | 
 
+Caso não consiga alterar a senha, abra o arquivo abaixo e altere os campos conforme a configuração:
+
+*Local do arquivo*
+~~~bash
+sudo vim /etc/postgresql/13/main/pg_hba.conf
+~~~
+
+*Final do arquivo pg_hba.conf deve ficar semelhante.*
+~~~conf
+# Database administrative login by Unix domain socket
+local   all             postgres                                trust
+
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+# "local" is for Unix domain socket connections only
+local   all             all                                     md5
+# IPv4 local connections:
+host    all             all             127.0.0.1/32            md5
+# IPv6 local connections:
+host    all             all             ::1/128                 md5
+# Allow replication connections from localhost, by a user with the
+# replication privilege.
+local   replication     all                                     md5
+host    replication     all             127.0.0.1/32            md5
+host    replication     all             ::1/128                 md5
+~~~
+
+
+
+
 ______________________________________________________________________________________________________________________________________
 
 SSH
