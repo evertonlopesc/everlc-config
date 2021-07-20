@@ -146,7 +146,7 @@ VS Code via SNAP, gosto dessa versão
 sudo snap install code --classic
 ~~~
 
-Configuração VS Code
+Configuração VS Code. Hoje eu trabalho com Ruby on Rails, logo essa conf. está direcionada a ele.
 ~~~json
 {
 	"editor.fontFamily": "'CaskaydiaCove Nerd Font'",
