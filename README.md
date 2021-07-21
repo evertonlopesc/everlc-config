@@ -286,7 +286,7 @@ sudo su - postgres
 ~~~
 
 ~~~ bash
-psql -c "alter user postgres with password 'StrongAdminP@ssw0rd'"
+psql -c "alter user postgres with password '<password>'"
 ~~~
 
 Criar usuário com senha, indico para projetos:
@@ -296,7 +296,7 @@ psql
 
 Comando para criar usuário com senha:
 ~~~ bash
-CREATE USER <name_user> WITH PASSWORD '<password>';
+CREATE ROLE <name_user> WITH SUPERUSER CREATEDB CREATEROLE LOGIN ENCRYPTED PASSWORD '<password>';
 ~~~
 
 Verificar usuário no banco:
