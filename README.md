@@ -239,41 +239,71 @@ ________________________________________________________________________________
 PostgreSQL
 ----------
 
-[How to Install PostgreSQL and pgAdmin4 in Ubuntu 20.04 - TecAdmin](https://tecadmin.net/how-to-install-postgresql-in-ubuntu-20-04/)
-
-[Para analisar depois](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/) *Não testado* | 
-[Para analisar depois](https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-20-04/) *Não testado* | 
-[Para analisar depois](https://www.howtodojo.com/install-postgresql-13-ubuntu-20-04/) *Não testado* | 
-
-Caso não consiga alterar a senha, abra o arquivo abaixo e altere os campos conforme a configuração:
-
-*Local do arquivo*
-~~~bash
-sudo vim /etc/postgresql/13/main/pg_hba.conf
+Create the file repository configuration:
+~~~ bash
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 ~~~
 
-*Final do arquivo pg_hba.conf deve ficar semelhante.*
-~~~conf
-# Database administrative login by Unix domain socket
-local   all             postgres                                trust
-
-# TYPE  DATABASE        USER            ADDRESS                 METHOD
-
-# "local" is for Unix domain socket connections only
-local   all             all                                     md5
-# IPv4 local connections:
-host    all             all             127.0.0.1/32            md5
-# IPv6 local connections:
-host    all             all             ::1/128                 md5
-# Allow replication connections from localhost, by a user with the
-# replication privilege.
-local   replication     all                                     md5
-host    replication     all             127.0.0.1/32            md5
-host    replication     all             ::1/128                 md5
+Import the repository signing key:
+~~~ bash
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 ~~~
 
+Update the package lists:
+~~~ bash
+sudo apt-get update
+~~~
 
+Modifique o arquivo: 
+~~~ bash
+sudo vim /etc/apt/sources.list.d/pgdg.list
+~~~
 
+Acrescentar [arch=amd64] nesse arquivo, conforme código abaixo:
+> deb [arch=amd64] http://apt.postgresql.org/pub/repos/apt/ focal-pgdg main
+
+Instalar o PostgreSQL:
+~~~ bash
+sudo apt-get -y install postgresql-13 postgresql-contrib-13 postgresql-server-dev-13
+~~~
+
+Execute:
+~~~ bash
+pg_ctlcluster 13 main start
+~~~
+
+Caso o de cima dê erro, execute:
+~~~ bash
+sudo systemctl start postgresql@13-main
+~~~
+Siga o apartir do passo 2:
+
+[Como instalar o PostgreSQL no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt)
+
+Criar usuário com senha:
+~~~ bash
+psql
+~~~
+
+Comando para criar usuário com senha:
+~~~ bash
+CREATE USER <name_user> WITH PASSWORD '<password>';
+~~~
+
+Verificar usuário no banco:
+~~~ bash
+\du
+~~~
+
+Criando o banco de dados pertencente a um usuário:
+~~~ bash
+CREATE DATABASE <name_database> OWNER <user_name>;
+~~~
+
+Verificar banco de dados:
+~~~ bash
+\l
+~~~
 
 ______________________________________________________________________________________________________________________________________
 
