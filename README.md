@@ -280,7 +280,16 @@ Siga o apartir do passo 2:
 
 [Como instalar o PostgreSQL no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt)
 
-Criar usuário com senha:
+Definir senha para o postgres:
+~~~ bash
+sudo su - postgres
+~~~
+
+~~~ bash
+psql -c "alter user postgres with password 'StrongAdminP@ssw0rd'"
+~~~
+
+Criar usuário com senha, indico para projetos:
 ~~~ bash
 psql
 ~~~
@@ -305,6 +314,9 @@ Verificar banco de dados:
 \l
 ~~~
 
+Instalar o PgAdmin 4 (usei a versão desktop):
+[pgAdmin 4 (APT)](https://www.pgadmin.org/download/pgadmin-4-apt/)
+ 
 ______________________________________________________________________________________________________________________________________
 
 SSH
