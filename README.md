@@ -26,17 +26,6 @@ Verifique se esse arquivo está criado: **.gitconfig**, caso contrário crie e c
 	branch = auto
 	interactive = auto
 	diff = auto
-[alias]
-	st = status
-	co = checkout
-	br = branch
-	ci = commit
-	cm = "commit -m"
-	all = "add -A"
-	restaged = "restore --staged"
-	last = "log -1 HEAD"
-	logone = "log --oneline"
-	slog = "log --oneline --graph"
 ~~~
 
 **No exemplo abaixo eles executam o mesmo comando**
