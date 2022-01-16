@@ -1,3 +1,5 @@
+![Linkedin Badge](https://img.shields.io/badge/Repo-Deprecated-red?style=for-the-badge)
+
 Setting Ubuntu 20.04
 ======================
 
